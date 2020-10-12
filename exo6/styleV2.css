@@ -1,0 +1,102 @@
+/* Afin d'utiliser les pourcentages en hauteur, nous définissons la taille de 100% pour le body et html */
+body, html {
+    height: 100%;
+}
+
+
+/* Mise en place des conteneurs parents */
+#firstRow {
+    display: flex;
+    height: 15%; /* Par rapport au parent = body */
+    height: 10%; /* Par rapport au parent = body */
+}
+
+#secondRow {
+    display: flex;
+    height: 30%; /* Par rapport au parent = body */
+    height: 20%; /* Par rapport au parent = body */
+}
+
+#othersRectangles{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66vh;  
+    width: 66%; /* Nous précisons la largeur par rapport à redRectangle et le body*/
+}
+
+#thirdRow {
+    display: flex;
+    height: 30%; /* Par rapport au parent = body */
+    height: 20%; /* Par rapport au parent = body */
+}
+
+
+/* ///////////////////////////
+firstRow
+////////////////////////////// */
+#greenRectangle {
+    /* utilisation de l'attribut float : left pour forcer que les éléments se stack à gauche */
+    background-color: #2ecc71;
+    /* utilisation de l'unité vw qui correspond au vw de l'écran */
+    width: 80vw;
+    width: 80%;
+}
+
+#blueRectangle {
+    background-color: #2980b9;
+    width: 20vw;
+    width: 20%;
+}
+
+/* ///////////////////////////
+secondRow
+////////////////////////////// */
+#redRectangle {
+    background-color: #e74c3c;
+    width: 34vw;
+    width: 34%; /* Par rapport au body */
+}
+
+/* otherRectangles */
+#orangeRectangle {
+    background-color: #e67e22;
+    width: 33vh;
+    height: 50%;
+    width: 50%;
+}
+
+#greyRectangle {
+    background-color: #95a5a6;
+    width: 33vh;
+    height: 50%;
+    width: 50%;
+}
+
+#yellowRectangle {
+    background-color: #f39c12;
+    width: 34%;
+    height: 10vh;
+    height: 50%;
+    width: 33%;
+}
+
+#tealRectangle {
+    background-color: #16a085;
+    width: 33%;
+    height: 10vh;
+    height: 50%;
+    width: 34%;
+}
+
+#darkOrangeRectangle {
+    background-color: #d35400;
+    height: 50%;
+    width: 33%;
+    height: 10vh;
+}
+
+#darkGreyRectangle {
+    background-color: #2c3e50;
+    width: 100vw;
+    height: 20vh;
+    width: 100%;
