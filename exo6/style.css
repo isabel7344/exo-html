@@ -73,3 +73,69 @@
     width: 100%;
 
 }
+
+/* #greenRectangle { */
+    /* utilisation de l'attribut float : left pour forcer que les éléments se stack à gauche */
+    /* float: left; */
+    /* background-color: #2ecc71; */
+    /* utilisation de l'unité % qui correspond au % de l'écran */
+    /* width: 80%; */
+    /* utilisation de l'unité vw qui correspond au "view height" */
+    /* height: 10vh; */
+/* } */
+
+/* #blueRectangle { */
+    /* float: left; */
+    /* background-color: #2980b9; */
+    /* width: 20%; */
+    /* height: 10vh; */
+/* } */
+
+/* #redRectangle { */
+    /* float: left; */
+    /* background-color: #e74c3c; */
+    /* width: 34%; */
+    /* height: 20vh; */
+/* } */
+
+/* #orangeRectangle { */
+    /* float: left; */
+    /* background-color: #e67e22; */
+    /* width: 33%; */
+    /* height: 10vh; */
+/* } */
+
+/* #greyRectangle { */
+    /* float: left; */
+    /* background-color: #95a5a6; */
+    /* width: 33%; */
+    /* height: 10vh; */
+/* } */
+
+/* #yellowRectangle { */
+    /* float: left; */
+    /* background-color: #f39c12; */
+    /* width: 22%; */
+    /* height: 10vh; */
+/* } */
+
+/* #tealRectangle { */
+    /* float: left; */
+    /* background-color: #16a085; */
+    /* width: 22%; */
+    /* height: 10vh; */
+/* } */
+
+/* #darkOrangeRectangle { */
+    /* float: left; */
+    /* background-color: #d35400; */
+    /* width: 22%; */
+    /* height: 10vh; */
+/* } */
+
+/* #darkGreyRectangle { */
+    /* float: left; */
+    /* background-color: #2c3e50; */
+    /* width: 100%; */
+    /* height: 20vh; */
+/* } */
